@@ -1,4 +1,4 @@
-<img width="620" height="83" alt="image" src="https://github.com/user-attachments/assets/0d8f994e-300f-4806-b4f6-ebf8d662c76f" /><img width="626" height="865" alt="image" src="https://github.com/user-attachments/assets/b0890f88-1259-4ece-860f-5cb9cf407bc9" /># TaskFlow - Flutter UTS Project
+# TaskFlow - Flutter UTS Project
 
 ## Deskripsi
 TaskFlow adalah aplikasi task management sederhana berbasis Flutter yang dikembangkan untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah Mobile Programming.  
