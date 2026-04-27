@@ -44,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
         context,
       ).showSnackBar(const SnackBar(content: Text('Login Berhasil')));
 
-      Navigator.pushNamed(context, '/dashboard', arguments: 'Admin');
+      Navigator.pushReplacementNamed(context, '/dashboard', arguments: 'Admin');
     } else {
       setState(() {
         errorMessage = 'Email atau password salah';
