@@ -84,10 +84,13 @@ class _LoginScreenState extends State<LoginScreen> {
                   const SizedBox(height: 16),
 
                   const Text(
-                    'Login',
+                    'TaskFlow Login',
                     style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                   ),
-
+                  const Text(
+                    'Kelola tugasmu lebih teratur',
+                    style: TextStyle(fontSize: 14, fontWeight: FontWeight.w300),
+                  ),
                   const SizedBox(height: 32),
 
                   Form(

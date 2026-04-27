@@ -10,10 +10,18 @@ class DashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Dummy data
-    final List<String> menuItems = List.generate(
-      10,
-      (index) => 'Menu Item ${index + 1}',
-    );
+    final List<String> menuItems = [
+      'Edit konten Instagram',
+      'Meeting client website',
+      'Kuliah Mobile Programming',
+      'Olahraga malam',
+      'Review target mingguan',
+      'Belajar Flutter',
+      'Riset content idea',
+      'Cek email client',
+      'Update portfolio',
+      'Rencana besok',
+    ];
 
     return Scaffold(
       appBar: AppBar(
@@ -61,7 +69,7 @@ class DashboardScreen extends StatelessWidget {
 
                       Expanded(
                         child: Text(
-                          'User aktif: $userName',
+                          '$userName',
                           style: const TextStyle(fontSize: 18),
                         ),
                       ),
@@ -73,7 +81,7 @@ class DashboardScreen extends StatelessWidget {
               const SizedBox(height: 20),
 
               const Text(
-                'Daftar Menu',
+                'Task Hari Ini',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
 
